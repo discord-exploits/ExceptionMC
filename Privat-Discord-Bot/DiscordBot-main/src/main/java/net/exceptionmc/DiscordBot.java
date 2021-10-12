@@ -23,7 +23,7 @@ public class DiscordBot {
     private static final Base64.Decoder decoder = Base64.getDecoder();
 
     private static final String encodedToken =
-            "ODg4NDA0MjUyMDQzNjU3MjI2.YUSM7w.H22qMlnFPI95szoRVt_p5nw_FKY";
+            "token";
     private static final String decodedToken = new String(decoder.decode(encodedToken));
 
     private static final DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(decodedToken);
