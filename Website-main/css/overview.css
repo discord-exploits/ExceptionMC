@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#sidebar {
+
+    background-color: #2b2e3b;
+    padding-right: 25px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    display: inline-block;
+    z-index: 1;
+}
+
+#sidebarContent {
+
+    padding-top: 100px;
+}
+
+#sidebarContent ul li {
+
+    padding-top: 18px;
+    padding-bottom: 8px;
+    list-style-type: none;
+}
+
+#sidebarContent ul li a {
+
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 20px;
+    color: #9295a4;
+}
+
+#coins a {
+
+    margin-left: 100px;
+}
+
+/* Hover */
+#sidebarContent ul li a:hover {
+
+    background-color: #22252f;
+    border-radius: 10px;
+    transition: background-color 0.15s ease-in-out;
+}

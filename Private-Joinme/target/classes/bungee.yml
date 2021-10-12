@@ -1,0 +1,4 @@
+name: Private-TeamChat
+version: 1.0-SNAPSHOT
+main: main.privateteamchat.PrivateTeamChat
+description: TC

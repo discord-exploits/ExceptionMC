@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>ExceptionMC - Login</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <img id="logo" src="../img/logo.png" alt="ExceptionMC Logo">
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Shop</a></li>
+            <input class="button" name="loginButton" onclick="parent.location='login.html';" type="button"
+                   value="Login">
+        </ul>
+    </nav>
+</header>
+
+<div id="loginPopUp">
+
+    <h1>Log in</h1>
+
+    <form>
+        <h3>Email</h3>
+        <label>
+            <input class="field" name="email" type="text">
+        </label>
+        <br>
+        <br>
+        <h3>Password</h3>
+        <label>
+            <input class="field" name="password" type="password">
+        </label>
+        <br>
+        <br>
+        <br>
+        <input class="loginSubmitButton" name="loginButton" type="submit" value="Login">
+    </form>
+
+    <h3 id="registerText" onclick="parent.location='register.html';">Register</h3>
+</div>
+</body>
+</html>

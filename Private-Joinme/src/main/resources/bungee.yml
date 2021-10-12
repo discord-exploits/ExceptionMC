@@ -1,0 +1,4 @@
+name: Private-TeamChat
+version: ${project.version}
+main: main.privateteamchat.PrivateTeamChat
+description: TC

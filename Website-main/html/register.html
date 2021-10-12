@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>ExceptionMC - Register</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/register.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <img id="logo" src="../img/logo.png" alt="ExceptionMC Logo">
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Shop</a></li>
+            <input class="button" name="loginButton" onclick="parent.location='login.html';" type="button"
+                   value="Login">
+        </ul>
+    </nav>
+</header>
+
+<div id="registerPopUp">
+
+    <h1>Register</h1>
+
+    <form>
+        <h3>E-Mail</h3>
+        <label>
+            <input class="field" type="text">
+        </label>
+        <br>
+        <br>
+        <h3>Minecraft-Name</h3>
+        <label>
+            <input class="field" type="text">
+        </label>
+        <br>
+        <br>
+        <h3>Password</h3>
+        <label>
+            <input class="field" type="password">
+        </label>
+        <br>
+        <br>
+        <h3>Confirm Password</h3>
+        <label>
+            <input class="field" type="password">
+        </label>
+        <br>
+        <br>
+        <br>
+        <input class="loginSubmitButton" name="loginButton" type="submit" value="Register">
+    </form>
+    <h3 id="loginText" onclick="parent.location='login.html';">Login</h3>
+</div>
+</body>
+</html>
